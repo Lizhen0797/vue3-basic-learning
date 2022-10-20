@@ -1,6 +1,5 @@
 <template>
   <button @click="isShow = !isShow">更改显示</button>
-  <hr />
   <MyDemo v-if="isShow"></MyDemo>
 </template>
 
